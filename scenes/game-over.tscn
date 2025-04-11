@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy25rp6l5etw7"]
+
+[ext_resource type="Texture2D" uid="uid://c87cy7otbi7xu" path="res://assets/house.jpg" id="1_vtvmt"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(572.5, 322.5)
+scale = Vector2(0.716875, 0.539167)
+texture = ExtResource("1_vtvmt")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 135.0
+offset_top = 44.0
+offset_right = 949.0
+offset_bottom = 249.0
+theme_override_colors/font_color = Color(0.882353, 0, 0, 1)
+theme_override_font_sizes/font_size = 150
+text = "Game Over"
